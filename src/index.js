@@ -1,5 +1,5 @@
-const content = document.querySelector('#content');
-const createDiv = document.createElement('div');
-createDiv.innerHTML = "Test"
+const content = document.querySelector("#content");
+const createDiv = document.createElement("div");
+createDiv.innerHTML = "Test";
 
-const appendDiv = content.appendChild('div');
+const appendDiv = content.appendChild("div");
