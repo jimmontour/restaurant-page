@@ -34,8 +34,9 @@ main img {
     max-width: 500px;
 }
 
-.welcome {
+.home {
     padding: 20px;
+    background-color: honeydew
 }
 
 footer {    

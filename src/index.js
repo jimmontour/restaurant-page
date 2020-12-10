@@ -1,5 +1,12 @@
-const content = document.querySelector("#content");
-const createDiv = document.createElement("div");
-createDiv.innerHTML = "Test";
+import home from './home';
+import loadPage from './loadPage';
+import loadContact from './contact';
+import loadHome from './home';
+import loadMenu from './menu';
 
-const appendDiv = content.appendChild("div");
+function init() {
+    loadPage();
+    loadHome();
+}
+
+init()
