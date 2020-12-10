@@ -67,3 +67,17 @@ footer p {
 .menu-card-info {
     margin: 20px;
 }
+
+.contact-form {
+    margin: 20px;
+    background: burlywood;
+    width: 500px;
+}
+
+.contact-form-section {
+    padding: 10px 0 10px 30px;
+}
+
+h1 {
+    padding: 20px;
+}
