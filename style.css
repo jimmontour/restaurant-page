@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {    
+    display: flex;
+    background-color: #32213A;
+    color: #D1CAA1;
+}
+
+.logo {
+    font-size: 24px;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    padding: 10px;
+}
+
+nav ul li{
+    padding-left: 20px;
+}
+
+main {
+    background-color: #D1CAA1;
+}
+main img {
+    width: 100%;
+    max-width: 500px;
+}
+
+.welcome {
+    padding: 20px;
+}
+
+footer {    
+    display: flex;
+    background-color: #32213A;
+    color: #D1CAA1;
+}
+
+footer p {    
+    margin-left: 20px;
+}
+
