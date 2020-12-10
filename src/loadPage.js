@@ -1,21 +1,21 @@
 function loadPage() {
-    const contentContainer = document.querySelector('#content');
-
+    const content = document.querySelector('#content');
+    const container = document.createElement('div');
+    container.classList.add('container')
     const header = document.createElement('header');
     header.innerHTML = `
         <div class="logo">Jims Diner</div>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Menu</li>
-                <li>Order Takeout</li>
-                <li>Private Events</li>
-                <li>Contact</li>
+                <li class="home">Home</li>
+                <li class="menu">Menu</li>
+                <li class="contact">Contact</li>
             </ul>
         </nav>
     `;
-    
-    contentContainer.appendChild(header)
+
+    content.appendChild(header);
+    content.appendChild(container);
 }
 
 export default loadPage;

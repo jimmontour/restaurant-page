@@ -1,9 +1,68 @@
 function loadMenu() {
-    const container = document.querySelector('#content');
-
+    const content = document.querySelector('#content');
+    const container = document.querySelector('.container');
+    container.innerHTML = '';
     const menu = document.createElement('div');
 
-    menu.innerHTML = `<p>Add menu content here!</p>`
+    menu.innerHTML = `
+        <h1>Menu</h1>
+        <div class="menu-options">
+            <div class="menu-card">
+                <div class="menu-card-image">
+                </div>
+                <div class="menu-card-info">
+                    <p>Hamburger</p>
+                    <p>$2.59</p>
+                    <p>A delicious burger with a secret sauce.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-image">
+                </div>
+                <div class="menu-card-info">
+                    <p>Hamburger</p>
+                    <p>$2.59</p>
+                    <p>A delicious burger with a secret sauce.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-image">
+                </div>
+                <div class="menu-card-info">
+                    <p>Hamburger</p>
+                    <p>$2.59</p>
+                    <p>A delicious burger with a secret sauce.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-image">
+                </div>
+                <div class="menu-card-info">
+                    <p>Hamburger</p>
+                    <p>$2.59</p>
+                    <p>A delicious burger with a secret sauce.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-image">
+                </div>
+                <div class="menu-card-info">
+                    <p>Hamburger</p>
+                    <p>$2.59</p>
+                    <p>A delicious burger with a secret sauce.</p>
+                </div>
+            </div>
+            <div class="menu-card">
+                <div class="menu-card-image">
+                </div>
+                <div class="menu-card-info">
+                    <p>Hamburger</p>
+                    <p>$2.59</p>
+                    <p>A delicious burger with a secret sauce.</p>
+                </div>
+            </div>
+        </div>
+    `;
 
     container.appendChild(menu);
 }

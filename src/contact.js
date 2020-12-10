@@ -1,9 +1,10 @@
 function loadContact() {
-    const container = document.querySelector('#content');
-
+    const content = document.querySelector('#content');
+    const container = document.querySelector('.container');
+    container.innerHTML = '';
     const contact = document.createElement('div');
 
-    menu.innerHTML = `<p>Add contact content here!</p>`
+    contact.innerHTML = `<p>Add contact content here!</p>`
 
     container.appendChild(contact);
 }
