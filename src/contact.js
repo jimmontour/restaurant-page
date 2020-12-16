@@ -1,10 +1,10 @@
 function loadContact() {
-    const content = document.querySelector('#content');
-    const container = document.querySelector('.container');
-    container.innerHTML = '';
-    const contact = document.createElement('div');
+  const content = document.querySelector('#content');
+  const container = document.querySelector('.container');
+  container.innerHTML = '';
+  const contact = document.createElement('div');
 
-    contact.innerHTML = `
+  contact.innerHTML = `
         <h1>Contact Jim's Diner</h1>
         <form class="contact-form" action="">
             <div class="contact-form-section">
@@ -26,7 +26,7 @@ function loadContact() {
         </form>
     `;
 
-    container.appendChild(contact);
+  container.appendChild(contact);
 }
 
-export default loadContact;4
+export default loadContact;

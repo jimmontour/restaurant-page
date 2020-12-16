@@ -1,10 +1,10 @@
 function loadMenu() {
-    const content = document.querySelector('#content');
-    const container = document.querySelector('.container');
-    container.innerHTML = '';
-    const menu = document.createElement('div');
+  const content = document.querySelector('#content');
+  const container = document.querySelector('.container');
+  container.innerHTML = '';
+  const menu = document.createElement('div');
 
-    menu.innerHTML = `
+  menu.innerHTML = `
         <h1>Menu</h1>
         <div class="menu-options">
             <div class="menu-card">
@@ -64,7 +64,7 @@ function loadMenu() {
         </div>
     `;
 
-    container.appendChild(menu);
+  container.appendChild(menu);
 }
 
 export default loadMenu;

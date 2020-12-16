@@ -1,9 +1,9 @@
 function loadPage() {
-    const content = document.querySelector('#content');
-    const container = document.createElement('div');
-    container.classList.add('container')
-    const header = document.createElement('header');
-    header.innerHTML = `
+  const content = document.querySelector('#content');
+  const container = document.createElement('div');
+  container.classList.add('container');
+  const header = document.createElement('header');
+  header.innerHTML = `
         <div class="logo">Jims Diner</div>
         <nav>
             <ul>
@@ -14,8 +14,8 @@ function loadPage() {
         </nav>
     `;
 
-    content.appendChild(header);
-    content.appendChild(container);
+  content.appendChild(header);
+  content.appendChild(container);
 }
 
 export default loadPage;
